@@ -35,7 +35,7 @@ const FruitsAndVeggiesSection = () => {
           marginRight: 2,
           marginY: 2,
           borderRadius: "10px",
-          textTransform: "Capitalize",
+          textTransform: "capitalize",
         }}
       >
         Fresh Fruits
@@ -49,7 +49,7 @@ const FruitsAndVeggiesSection = () => {
           marginRight: 2,
           marginY: 2,
           borderRadius: "10px",
-          textTransform: "Capitalize",
+          textTransform: "capitalize",
         }}
       >
         Fresh Vegetables
@@ -62,13 +62,11 @@ const FruitsAndVeggiesSection = () => {
           fontWeight: 600,
           marginY: 2,
           borderRadius: "10px",
-          textTransform: "Capitalize",
+          textTransform: "capitalize",
         }}
       >
         Combo Basket
       </Button>
-
-      {/* Sorting and Product Tags */}
       <div style={{ display: "flex", alignItems: "center", marginBottom: 10 }}>
         <Select
           defaultValue="Sort"
@@ -109,7 +107,7 @@ const FruitsAndVeggiesSection = () => {
               marginRight: 5,
               color: "#000",
               fontWeight: 500,
-              textTransform: "Capitalize",
+              textTransform: "capitalize",
               borderRadius: "10px",
             }}
             key={item}
@@ -127,7 +125,7 @@ const FruitsAndVeggiesSection = () => {
               marginRight: 5,
               color: "#000",
               fontWeight: 500,
-              textTransform: "Capitalize",
+              textTransform: "capitalize",
               borderRadius: "10px",
             }}
             key={item}
@@ -136,7 +134,6 @@ const FruitsAndVeggiesSection = () => {
           </Button>
         )
       )}
-      {/* Cart Icon (Right side) */}
       <IconButton
         size="medium"
         style={{ position: "absolute", top: 251, right: 130 }}

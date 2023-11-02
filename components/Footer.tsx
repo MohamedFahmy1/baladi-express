@@ -8,7 +8,6 @@ import {
   Container,
   InputAdornment,
 } from "@mui/material";
-import MailOutlineIcon from "@mui/icons-material/MailOutline"; // Placeholder, replace with your own icon
 import footer from "@/public/images/footer.png";
 import Vector from "@/public/images/Vector.png";
 import facebook from "@/public/images/facebook.png";
